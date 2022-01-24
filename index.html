@@ -1,93 +1,33 @@
-<!DOCTYPE html>
-<html lang="en" class="pf-m-redhat-font">
-<head>
-  <meta charset="utf-8" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0HCLXNFL3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-B0HCLXNFL3');
-  </script>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="favicon.ico" rel="shortcut icon" />
-  <!-- Include latest PatternFly CSS via CDN -->
-  <link 
-    rel="stylesheet" 
-    href="https://unpkg.com/@patternfly/patternfly/patternfly.css" 
-    crossorigin="anonymous"
-  >
-  <title>VOIDSU - Digital Certificates Diagnostic Tools</title>
-</head>
-<body>
-  <div class="pf-c-page" id="page-layout-grouped-nav">
-  <header class="pf-c-page__header">
-    <div class="pf-c-page__header-brand">
-      <a href="#" class="pf-c-page__header-brand-link">
-        <span>VOIDSU</span>
-      </a>
-    </div>
-  </header>
-  <main class="pf-c-page__main" tabindex="-1" id="main-content-page-layout-grouped-nav">
-    <section class="pf-c-page__main-section pf-m-limit-width pf-m-light ">
-      <div class="pf-c-page__main-body">
-        <div class="pf-c-content">
-          <h1>Digital certificates diagnostic tools</h1>
-          <div class="pf-l-bullseye">
-            <div class="pf-l-bullseye__item">
-                <form novalidate class="pf-c-form" method="GET" action="https://www.void.su/lookup">
-                    <div class="pf-c-form__group">
-                      <div class="pf-c-form__group-label">
-                        <label class="pf-c-form__label" for="address">
-                          <span class="pf-c-form__label-text">Address</span>
-                          <span class="pf-c-form__label-required" aria-hidden="true">&#42;</span>
-                        </label>
-                      </div>
-                      <div class="pf-c-form__group-control">
-                        <input class="pf-c-form-control" required type="text" id="address" name="address" aria-describedby="address-helper-1" />
-                        <p class="pf-c-form__helper-text" id="address-helper-1" aria-live="polite">eg. 213.248.63.19, void.su</p>
-                      </div>
-                    </div>
-                    <div class="pf-c-form__group">
-                      <div class="pf-c-form__group-label">
-                        <label class="pf-c-form__label" for="port">
-                          <span class="pf-c-form__label-text">Port</span>
-                          <span class="pf-c-form__label-required" aria-hidden="true">&#42;</span>
-                        </label>
-                      </div>
-                      <div class="pf-c-form__group-control">
-                        <input class="pf-c-form-control" required type="text" id="port" name="port" value="443" />
-                        <p class="pf-c-form__helper-text" id="port-helper-1" aria-live="polite">eg. 443, 8443</p>
-                      </div>
-                    </div>
-                    <div class="pf-c-form__group">
-                      <div class="pf-c-form__group-label">
-                        <label class="pf-c-form__label" for="server-name">
-                          <span class="pf-c-form__label-text">Server name</span>
-                          <span class="pf-c-form__label-required" aria-hidden="true">&#42;</span>
-                        </label>
-                      </div>
-                      <div class="pf-c-form__group-control">
-                        <input class="pf-c-form-control" required type="text" id="server-name" name="serverName" />
-                        <p class="pf-c-form__helper-text" id="server-name-helper-1" aria-live="polite">eg. void.su</p>
-                      </div>
-                    </div>
-                    <div class="pf-c-form__group pf-m-action">
-                      <div class="pf-c-form__group-control">
-                        <div class="pf-c-form__actions">
-                          <button class="pf-c-button pf-m-primary" type="submit">Lookup</button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-</div>
-</body>
-</html>
 
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="favicon.ico" rel="shortcut icon" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0HCLXNFL3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-B0HCLXNFL3');
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <link href="stylesheet.css" rel="stylesheet">
+        <title>VOIDSU - X.509 certificate diagnostic Java library</title>
+    </head>
+    <body>
+        <main role="main" class="container">
+            <h1 class="mt-5">VOIDSU</h1>
+            <p class="lead">X.509 certificate diagnostic Java library.</p>
+            <p>It resolves and analyses X.509 certificate from any remote address via the TLS or SSL protocols.</p>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <span class="text-muted">Join <a href="https://github.com/voidsu/voidsu">GitHub</a> community.</span>
+            </div>
+        </footer>
+    </body>
+</html>
